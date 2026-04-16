@@ -15,7 +15,7 @@
 }
 
 #chapter-4-5 div p{
-	margin: 0;
+	text-indent: 0em;
 }
 
 .blackletter{
@@ -30,20 +30,7 @@
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
 
-[epub|type~="epigraph"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -74,9 +61,6 @@ section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
 
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
 }
 /* End full-page epigraphs */
 
@@ -112,10 +96,6 @@ section[epub|type~="dedication"] > *{
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
-}
-
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
 }
 
 [epub|type~="z3998:poem"] p > span{
