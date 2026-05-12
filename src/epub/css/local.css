@@ -15,12 +15,17 @@
 }
 
 #chapter-4-5 div p{
-	text-indent: 0em;
+	text-indent: 0;
 }
 
 .blackletter{
 	font-family: "Standard Blackletter";
 	font-size: large;
+}
+
+section[epub|type~="dedication"]{
+	font-variant: small-caps;
+	text-align: center;
 }
 
 /* All epigraphs */
@@ -29,8 +34,6 @@
 	hyphens: none;
 	-epub-hyphens: none;
 }
-
-
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -60,7 +63,6 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
 }
 /* End full-page epigraphs */
 
