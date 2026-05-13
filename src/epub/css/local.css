@@ -23,11 +23,6 @@
 	font-size: large;
 }
 
-section[epub|type~="dedication"]{
-	font-variant: small-caps;
-	text-align: center;
-}
-
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -68,6 +63,7 @@ section[epub|type~="epigraph"] > *{
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
 }
 
