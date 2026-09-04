@@ -37,7 +37,7 @@
 		<dc:title id="fulltitle">The Fifth Queen Crowned: A Romance</dc:title>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<meta property="file-as" refines="#fulltitle">The Fifth Queen Crowned: A Romance</meta>
-		<dc:subject id="subject-1">Catharine Howard, Queen, consort of Henry VIII, King of England, -1542 -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Catharine Howard, Queen, consort of Henry VIII, King of England, -1542--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
